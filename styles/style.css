@@ -1,0 +1,271 @@
+/* shared styles */
+.bg-color{
+    background-color: black;
+}
+.title-color{
+    color:tomato;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    margin: 0 0;
+}
+.text-white{
+    color: white;
+    margin: 0 0;
+}
+.text-white2{
+    color:rgba(255, 255, 255, 0.529);
+    margin: 5px auto;
+    margin: 0 0;
+}
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    color: white;
+    font-size: larger;
+    background-color: tomato;
+    border-radius: 23px;
+    border:none;
+    padding:15px 40px;
+}
+
+/* start of header related styles */
+/* start of navbar related styles */
+.navbar{
+    justify-content:space-around;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight:bolder;
+}
+.nav-item{
+    gap: 40px;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.406);
+    padding: 3px 20px 3px 3px;
+    border-radius: 21px;
+}
+.btn-home{
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+/* end of navbar related styles */
+
+/* start of banner related style */
+.banner{
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.banner-description{
+    margin-bottom: 10px;
+}
+/* #shape{
+    font-family:italic;
+} */
+.number{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:0 0;
+}
+.btn-secondary{
+    background-color: black;
+    border-radius: 23px;
+    border: 1px solid rgba(128, 128, 128, 0.406);
+    padding:15px 40px;
+    font-size: larger;
+}
+.work-out{
+    position:absolute;
+    top: 130px;
+    right: 0;
+    
+}
+.tutorial{
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    bottom: 90px;;
+    left: 0;
+}
+.banner-content{
+    position: relative;
+}
+.work-out, .tutorial{
+    background-color: rgba(255, 255, 255, 0.245);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.tomato{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+/* end of banner related style */
+/* end of header related style */
+
+/* start of main section's style */
+header, .habits,.run, .meet{
+    width: 80%;
+    margin: 60px auto;
+}
+/* start of habits section's style */
+.habits{
+    justify-content: space-around;
+}
+.text{
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.habit-cards{
+    justify-content: space-around;
+}
+.card{
+    max-width: 200px;
+    text-align: center;
+}
+.card > img{
+    border-radius: 50%;
+    padding: 1px;
+    border: 2px solid rgba(255, 255, 255, 0.245);
+}
+.card-title{
+    font-size: larger;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+/* end of habits section's style */
+
+/* start of run section's style */
+.run-img>img{
+    width: 100%;
+    border-radius: 15px;
+}
+.run{
+    margin: 60px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.167);
+    border-radius: 15px;
+}
+.run-text, .run-img{
+    max-width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+/* end of run section's style */
+
+/* start of calculator section's style */
+.calculator{
+    padding:60px;
+}
+.calculator-text{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.calculator-body{
+    width: 80%;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+.calculator-table, .calculator-input{
+    max-width: 550px;
+}
+tr>td{
+    color:rgba(255, 255, 255, 0.529);
+}
+table{
+    margin-top: 20px;
+    text-align: left;
+    border-collapse:collapse;
+}
+td,th{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.529);
+}
+
+/* start of meet section's style */
+.meet-text{
+    max-width: 600px;
+    text-align: center;
+    margin: 60px auto;
+}
+.trainer-img{
+    max-width: 250px;
+    max-height: 200px;
+    position: relative;
+}
+.trainer{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.trainers{
+    border-radius: 10px;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.167) ;
+    gap: 30px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.identity{
+    position:absolute;
+    left: 10px;
+    bottom: 5px;
+}
+/* end of meet section's style */
+
+/* start of footer section's style */
+.footer, .calculator{
+    background-color: rgba(255, 255, 255, 0.167);
+}
+.footer-part1{
+    max-width: 380px;
+}
+.foot{
+    justify-content: space-between;
+}
+.part1-title, .another-title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.part1-title{
+    font-size: 3.5rem;
+}
+.another-title, .table-title{
+    font-size: 2rem;
+}
+.footer-list>li{
+    margin-bottom: 10px;
+}
+.foot{
+    width: 80%;
+    padding-top: 60px;
+    margin: 0 auto 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.457);
+}
+.copyright{
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 20px;
+}
