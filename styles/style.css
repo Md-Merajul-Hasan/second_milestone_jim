@@ -74,6 +74,10 @@ li>img{
 /* end of navbar related styles */
 
 /* start of banner related style */
+#shape{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
 .banner{
     justify-content: space-around;
     align-items: center;
