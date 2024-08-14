@@ -33,7 +33,7 @@ a{
     border:none;
     padding:15px 40px;
 }
-.work-out, .tutorial, .run,.footer, .calculator,.trainers{
+.work-out, .tutorial, .run,.footer, .calculator,.trainers,input,fieldset,select{
     background-color: rgba(255, 255, 255, 0.1);
 }
 /* start of header related styles */
@@ -44,6 +44,17 @@ header{
 .navbar{
     justify-content:space-around;
     align-items: center;
+}
+li>img{
+    width: 45px;
+    height: 45px;
+}
+.menu-bar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+    position:absolute;
 }
 .nav-title{
     font-size: 2rem;
@@ -194,6 +205,32 @@ header, .habits,.run, .meet{
 .calculator-table, .calculator-input{
     max-width: 550px;
 }
+.inputs{
+    max-width: 400px;
+}
+.input{
+    width:200px;
+}
+input,fieldset{
+    border: none;
+    border-radius: 3px;
+    width:80%;
+    margin: 3px 3px;
+    padding-left: 20px;
+    position: relative;
+}
+select{
+    border: none;
+    position: absolute;
+    right: 10px;
+}
+.age-and-sex{
+    max-width: 400px;
+    justify-content: space-between;
+}
+.sex{
+    width: 200px;
+    }
 tr>td{
     color:rgba(255, 255, 255, 0.5);
 }
@@ -268,4 +305,57 @@ td,th{
     text-align: center;
     font-size: larger;
     padding-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+    header{
+        width:100%;
+    }
+    .menu-item{
+        display: none;
+    }
+    .menu-bar{
+        visibility: visible;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+
+    }
+    .habits{
+        width: 90%;
+    }
+    .habit-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .run{
+        width: 90%;
+        flex-direction: column;
+    }
+    .run-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .run-text>button{
+        justify-content: center;
+        align-items: center;
+    }
+    .calculator-body{
+        flex-direction: column;
+    }
+    .inputs{
+        width: 300px;
+    }
+    .foot{
+        flex-direction: column;
+    }
+
 }
