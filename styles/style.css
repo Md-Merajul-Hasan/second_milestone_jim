@@ -98,9 +98,6 @@ li>img{
 .banner-description{
     margin-bottom: 10px;
 }
-/* #shape{
-    font-family:italic;
-} */
 .number{
     font-size: 2rem;
     font-weight: bold;
@@ -147,6 +144,9 @@ li>img{
 header, .habits,.run, .meet{
     width: 80%;
     margin: 60px auto;
+}
+header{
+    margin-top: 0px;
 }
 /* start of habits section's style */
 .habits{
