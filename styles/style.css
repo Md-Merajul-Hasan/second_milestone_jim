@@ -40,7 +40,7 @@ a{
     border:none;
     padding:15px 40px;
 }
-.work-out, .tutorial, .run,.footer, .calculator,.trainers,input,fieldset,select{
+.work-out, .tutorial, .run,.footer, .calculator,.trainers,input,fieldset,select, .set-goal{
     background-color: rgba(255, 255, 255, 0.1);
 }
 /* start of header related styles */
@@ -257,6 +257,28 @@ td,th{
 .cal{
     margin-top: 10px;
 }
+/* start of goal section's style */
+.set-goal{
+    margin-top: 60px;
+    width: 80%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.goals{
+    justify-content: space-around; 
+}
+.goal>button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.goal>img{
+    width: 200px;
+    border-radius: 100px;
+    padding:1px;
+    border: 2px solid rgba(255, 255, 255, 0.245);
+}
 
 /* start of meet section's style */
 .meet-text{
@@ -378,6 +400,9 @@ td,th{
         justify-content: space-between;
     }
     .foot{
+        flex-direction: column;
+    }
+    .goals{
         flex-direction: column;
     }
 
