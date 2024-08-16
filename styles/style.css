@@ -70,6 +70,7 @@ li>img{
 .btn-home{
     padding: 5px 15px;
     border-radius: 15px;
+    font-weight: bold;
 }
 /* end of navbar related styles */
 
